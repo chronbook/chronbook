@@ -1,12 +1,12 @@
 Function Test()
   // Get the modal
-  var modal = getElementById("myModal");
+  var modal = document.getElementById("myModal");
   
   // Get the button that opens the modal
-  var btn = getElementById("Test");
+  var btn = document.getElementById("Test");
   
   // Get the <span> element that closes the modal
-  var span = getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("close")[0];
   
   // When the user clicks on the button, open the modal
   btn.onclick = function() {
