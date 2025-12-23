@@ -191,3 +191,109 @@
   font-size: 5px;
   text-align: center;
 }
+.containermm {
+         display: flex;
+         flex-direction: column;
+         background-color: lightblue;
+         width: stretch;
+         height: stretch;
+         align-items: center;
+         }
+         .containermm2a {
+         display: flex;
+         justify-content: center;
+         }
+         .containermm2 {
+         display: flex;
+         justify-content: center;
+         }
+         .containermm2b {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 3px;
+         }
+         .containermm3 {
+         display: flex;	
+         flex-direction: column;
+         justify-content: center;
+         }
+         .containermm1 {
+         display: flex;
+         flex-direction: column;
+         background-color: white;
+         width: 140px;
+         height: stretch;
+         margin: 5px;
+         padding: 1px;
+         font-size: 10px;
+         justify-content: center;
+         }
+         .containermm2 div {
+         display: flex;
+         width: stretch;
+         height: stretch;
+         margin-top: 1px;
+         margin-bottom: 1px;
+         margin-right: 1px;
+         margin-left: 1px;
+         padding: 0px;
+         font-size: 10px;
+         justify-content: center;
+         align-items: center;
+         }
+         .containermm2a div {
+         display: flex;
+         background-color: green;
+         width: 30px;
+         height: 20px;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-right: 1px;
+         margin-left: 1px;
+         padding: 1px;
+         font-size: 10px;
+         justify-content: center;
+         align-items: center;
+         }
+         .containermm2b div {
+         display: flex;
+         background-color: lightgray;
+         width: 30px;
+         height: 20px;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-right: 1px;
+         margin-left: 1px;
+         padding: 1px;
+         font-size: 10px;
+         justify-content: center;
+         align-items: center;
+         }
+         .containermm3a div {
+         display: flex;
+         background-color: green;
+         width: 32px;
+         height: 22px;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-right: 1px;
+         margin-left: 1px;
+         padding: 0px;
+         font-size: 10px;
+         justify-content: center;
+         align-items: center;
+         }
+         .containermm3b div {
+         display: flex;
+         background-color: lightgray;
+         width: 32px;
+         height: 22px;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-right: 1px;
+         margin-left: 1px;
+         padding: 0px;
+         font-size: 10px;
+         justify-content: center;
+         align-items: center;
+         }
