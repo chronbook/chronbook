@@ -1,299 +1,308 @@
-.modal {
-  display: none; 
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%;
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  width: stretch;
-  height: stretch;
-  align-items: center;
-}
-.containera {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  width: stretch;
-  height: stretch;
-  align-items: center;
-}
-.containerb {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  width: stretch;
-  height: stretch;
-  align-items: center;
-}
-.containerc {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  width: stretch;
-  height: stretch;
-  align-items: center;
-}
-.containerd {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  width: stretch;
-  height: stretch;
-  align-items: center;
-}
-.container div {
-  background-color: red;
-  width: stretch;
-  height: stretch;
-  margin: 1px;
-  padding: 1px;
-  font-size: 8px;
-}
-.containera div {
-  background-color: red;
-  width: stretch;
-  height: stretch;
-  margin: 1px;
-  padding: 1px;
-  font-size: 8px;
-}
-.containerb div {
-  background-color: red;
-  width: stretch;
-  height: stretch;
-  margin: 1px;
-  padding: 1px;
-  font-size: 8px;
-}
-.containerc div {
-  background-color: red;
-  width: stretch;
-  height: stretch;
-  margin: 1px;
-  padding: 1px;
-  font-size: 8px;
-}
-.containerd div {
-  background-color: red;
-  width: stretch;
-  height: stretch;
-  margin: 1px;
-  padding: 1px;
-  font-size: 8px;
-}
-.container1 {
-  display: flex;
-  background-color: green;
-  justify-content: center;
-  grid-gap: 1px
-}
-.container1b {
-  display: flex;
-  background-color: red;
-  justify-content: center;
-  grid-gap: 1px
-}
-.container2 {
-  display: flex;
-  background-color: red;
-  grid-gap: 1px
-}
-.container21 {
-  display: flex;
-  background-color: red;
-  grid-gap: 1px
-}
-.container22 {
-  display: flex;
-  background-color: red;
-  grid-gap: 1px
-}
-.container23 {
-  display: flex;
-  background-color: red;
-  grid-gap: 1px
-}
-.container2 div {
-  background-color: DodgerBlue;
-  margin: 1px;
-  padding: 1px;
-  font-size: 5px;
-  text-align: center;
-}
-.container21 div {
-  background-color: DodgerBlue;
-  margin: 0px;
-  padding: 0px;
-  font-size: 5px;
-  text-align: center;
-}
-.container22 div {
-  background-color: DodgerBlue;
-  margin: 0px;
-  padding: 0px;
-  font-size: 5px;
-  text-align: center;
-}
-.container23 div {
-  background-color: DodgerBlue;
-  margin: 0px;
-  padding: 0.5px;
-  font-size: 5px;
-  text-align: center;
-}
-.container1 div {
-  background-color: white;
-  width: 40px;
-  height: 50px;
-  margin: 1px;
-  padding: 1px;
-  font-size: 5px;
-  text-align: center;
-}
-.container1b div {
-  background-color: white;
-  width: 18px;
-  height: 50px;
-  margin: 1px;
-  padding: 1px;
-  font-size: 5px;
-  text-align: center;
-}
-.containermm {
-         display: flex;
-         flex-direction: column;
-         background-color: lightblue;
-         width: stretch;
-         height: stretch;
-         align-items: center;
-         }
-         .containermm2a {
-         display: flex;
-         justify-content: center;
-         }
-         .containermm2 {
-         display: flex;
-         justify-content: center;
-         }
-         .containermm2b {
-         display: flex;
-         justify-content: center;
-         margin-bottom: 3px;
-         }
-         .containermm3 {
-         display: flex;	
-         flex-direction: column;
-         justify-content: center;
-         }
-         .containermm1 {
-         display: flex;
-         flex-direction: column;
-         background-color: white;
-         width: 140px;
-         height: stretch;
-         margin: 5px;
-         padding: 1px;
-         font-size: 10px;
-         justify-content: center;
-         }
-         .containermm2 div {
-         display: flex;
-         width: stretch;
-         height: stretch;
-         margin-top: 1px;
-         margin-bottom: 1px;
-         margin-right: 1px;
-         margin-left: 1px;
-         padding: 0px;
-         font-size: 10px;
-         justify-content: center;
-         align-items: center;
-         }
-         .containermm2a div {
-         display: flex;
-         background-color: green;
-         width: 30px;
-         height: 20px;
-         margin-top: 0px;
-         margin-bottom: 0px;
-         margin-right: 1px;
-         margin-left: 1px;
-         padding: 1px;
-         font-size: 10px;
-         justify-content: center;
-         align-items: center;
-         }
-         .containermm2b div {
-         display: flex;
-         background-color: lightgray;
-         width: 30px;
-         height: 20px;
-         margin-top: 0px;
-         margin-bottom: 0px;
-         margin-right: 1px;
-         margin-left: 1px;
-         padding: 1px;
-         font-size: 10px;
-         justify-content: center;
-         align-items: center;
-         }
-         .containermm3a div {
-         display: flex;
-         background-color: green;
-         width: 32px;
-         height: 22px;
-         margin-top: 0px;
-         margin-bottom: 0px;
-         margin-right: 1px;
-         margin-left: 1px;
-         padding: 0px;
-         font-size: 10px;
-         justify-content: center;
-         align-items: center;
-         }
-         .containermm3b div {
-         display: flex;
-         background-color: lightgray;
-         width: 32px;
-         height: 22px;
-         margin-top: 0px;
-         margin-bottom: 0px;
-         margin-right: 1px;
-         margin-left: 1px;
-         padding: 0px;
-         font-size: 10px;
-         justify-content: center;
-         align-items: center;
-         }
+  .modal {
+   display: none; 
+   position: fixed;
+   z-index: 1;
+   padding-top: 100px;
+   left: 0;
+   top: 0;
+   width: 100%; 
+   height: 100%;
+   overflow: auto; 
+   background-color: rgb(0,0,0); 
+   background-color: rgba(0,0,0,0.4);
+   }
+   .modal-content {
+   background-color: #fefefe;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%;
+   }
+   .close {
+   color: #aaaaaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+   }
+   .close:hover,
+   .close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+   }
+   .container {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   width: stretch;
+   height: stretch;
+   align-items: center;
+   }
+   .containera {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   width: stretch;
+   height: stretch;
+   align-items: center;
+   }
+   .containerb {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   width: stretch;
+   height: stretch;
+   align-items: center;
+   }
+   .containerc {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   width: stretch;
+   height: stretch;
+   align-items: center;
+   }
+   .containerd {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   width: stretch;
+   height: stretch;
+   align-items: center;
+   }
+   .container div {
+   background-color: red;
+   width: stretch;
+   height: stretch;
+   margin: 1px;
+   padding: 1px;
+   font-size: 8px;
+   }
+   .containera div {
+   background-color: red;
+   width: stretch;
+   height: stretch;
+   margin: 1px;
+   padding: 1px;
+   font-size: 8px;
+   }
+   .containerb div {
+   background-color: red;
+   width: stretch;
+   height: stretch;
+   margin: 1px;
+   padding: 1px;
+   font-size: 8px;
+   }
+   .containerc div {
+   background-color: red;
+   width: stretch;
+   height: stretch;
+   margin: 1px;
+   padding: 1px;
+   font-size: 8px;
+   }
+   .containerd div {
+   background-color: red;
+   width: stretch;
+   height: stretch;
+   margin: 1px;
+   padding: 1px;
+   font-size: 8px;
+   }
+   .container1 {
+   display: flex;
+   width: stretch;
+   height: stretch;
+   background-color: green;
+   justify-content: center;
+   grid-gap: 1px
+   }
+   .container1b {
+   display: flex;
+   width: stretch;
+   height: stretch;
+   background-color: red;
+   justify-content: center;
+   grid-gap: 1px
+   }
+   .container2 {
+   display: flex;
+   width: stretch;
+   height: stretch;
+   background-color: red;
+   grid-gap: 1px
+   }
+   .container21 {
+   display: flex;
+   width: stretch;
+   height: stretch;
+   background-color: red;
+   grid-gap: 1px
+   }
+   .container22 {
+   display: flex;
+   width: stretch;
+   height: stretch;
+   background-color: red;
+   grid-gap: 1px
+   }
+   .container23 {
+   display: flex;
+   width: stretch;
+   height: stretch;
+   background-color: red;
+   grid-gap: 1px
+   }
+   .container2 div {
+   background-color: DodgerBlue;
+   margin: 1px;
+   padding: 1px;
+   font-size: 5px;
+   text-align: center;
+   }
+   .container21 div {
+   background-color: DodgerBlue;
+   margin: 0px;
+   padding: 0px;
+   font-size: 5px;
+   text-align: center;
+   }
+   .container22 div {
+   background-color: DodgerBlue;
+   margin: 0px;
+   padding: 0px;
+   font-size: 5px;
+   text-align: center;
+   }
+   .container23 div {
+   background-color: DodgerBlue;
+   margin: 0px;
+   padding: 0.5px;
+   font-size: 5px;
+   text-align: center;
+   }
+   .container1 div {
+   background-color: white;
+   width: 140px;
+   height: stretch;
+   margin: 1px;
+   padding: 1px;
+   font-size: 5px;
+   text-align: center;
+   }
+   .container1b div {
+   background-color: white;
+   width: 140px;
+   height: stretch;
+   margin: 1px;
+   padding: 1px;
+   font-size: 5px;
+   text-align: center;
+   }
+   .containermm {
+   display: flex;
+   flex-direction: column;
+   background-color: lightblue;
+   width: stretch;
+   height: stretch;
+   align-items: center;
+   }
+   .containermm2a {
+   display: flex;
+   justify-content: center;
+   }
+   .containermm2 {
+   display: flex;
+   justify-content: center;
+   }
+   .containermm2b {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 3px;
+   }
+   .containermm3 {
+   display: flex;	
+   flex-direction: column;
+   justify-content: center;
+   }
+   .containermm1 {
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   width: 140px;
+   height: stretch;
+   margin: 5px;
+   padding: 1px;
+   font-size: 10px;
+   justify-content: center;
+   }
+   .containermm2 div {
+   display: flex;
+   width: stretch;
+   height: stretch;
+   margin-top: 1px;
+   margin-bottom: 1px;
+   margin-right: 1px;
+   margin-left: 1px;
+   padding: 0px;
+   font-size: 10px;
+   justify-content: center;
+   align-items: center;
+   }
+   .containermm2a div {
+   display: flex;
+   background-color: green;
+   width: 30px;
+   height: 20px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 1px;
+   margin-left: 1px;
+   padding: 1px;
+   font-size: 10px;
+   justify-content: center;
+   align-items: center;
+   }
+   .containermm2b div {
+   display: flex;
+   background-color: lightgray;
+   width: 30px;
+   height: 20px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 1px;
+   margin-left: 1px;
+   padding: 1px;
+   font-size: 10px;
+   justify-content: center;
+   align-items: center;
+   }
+   .containermm3a div {
+   display: flex;
+   background-color: green;
+   width: 32px;
+   height: 22px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 1px;
+   margin-left: 1px;
+   padding: 0px;
+   font-size: 10px;
+   justify-content: center;
+   align-items: center;
+   }
+   .containermm3b div {
+   display: flex;
+   background-color: lightgray;
+   width: 32px;
+   height: 22px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 1px;
+   margin-left: 1px;
+   padding: 0px;
+   font-size: 10px;
+   justify-content: center;
+   align-items: center;
+   }
