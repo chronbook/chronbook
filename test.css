@@ -33,3 +33,161 @@
   text-decoration: none;
   cursor: pointer;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: stretch;
+  height: stretch;
+  align-items: center;
+}
+.containera {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: stretch;
+  height: stretch;
+  align-items: center;
+}
+.containerb {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: stretch;
+  height: stretch;
+  align-items: center;
+}
+.containerc {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: stretch;
+  height: stretch;
+  align-items: center;
+}
+.containerd {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: stretch;
+  height: stretch;
+  align-items: center;
+}
+.container div {
+  background-color: red;
+  width: stretch;
+  height: stretch;
+  margin: 1px;
+  padding: 1px;
+  font-size: 8px;
+}
+.containera div {
+  background-color: red;
+  width: stretch;
+  height: stretch;
+  margin: 1px;
+  padding: 1px;
+  font-size: 8px;
+}
+.containerb div {
+  background-color: red;
+  width: stretch;
+  height: stretch;
+  margin: 1px;
+  padding: 1px;
+  font-size: 8px;
+}
+.containerc div {
+  background-color: red;
+  width: stretch;
+  height: stretch;
+  margin: 1px;
+  padding: 1px;
+  font-size: 8px;
+}
+.containerd div {
+  background-color: red;
+  width: stretch;
+  height: stretch;
+  margin: 1px;
+  padding: 1px;
+  font-size: 8px;
+}
+.container1 {
+  display: flex;
+  background-color: green;
+  justify-content: center;
+  grid-gap: 1px
+}
+.container1b {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  grid-gap: 1px
+}
+.container2 {
+  display: flex;
+  background-color: red;
+  grid-gap: 1px
+}
+.container21 {
+  display: flex;
+  background-color: red;
+  grid-gap: 1px
+}
+.container22 {
+  display: flex;
+  background-color: red;
+  grid-gap: 1px
+}
+.container23 {
+  display: flex;
+  background-color: red;
+  grid-gap: 1px
+}
+.container2 div {
+  background-color: DodgerBlue;
+  margin: 1px;
+  padding: 1px;
+  font-size: 5px;
+  text-align: center;
+}
+.container21 div {
+  background-color: DodgerBlue;
+  margin: 0px;
+  padding: 0px;
+  font-size: 5px;
+  text-align: center;
+}
+.container22 div {
+  background-color: DodgerBlue;
+  margin: 0px;
+  padding: 0px;
+  font-size: 5px;
+  text-align: center;
+}
+.container23 div {
+  background-color: DodgerBlue;
+  margin: 0px;
+  padding: 0.5px;
+  font-size: 5px;
+  text-align: center;
+}
+.container1 div {
+  background-color: white;
+  width: 40px;
+  height: 50px;
+  margin: 1px;
+  padding: 1px;
+  font-size: 5px;
+  text-align: center;
+}
+.container1b div {
+  background-color: white;
+  width: 18px;
+  height: 50px;
+  margin: 1px;
+  padding: 1px;
+  font-size: 5px;
+  text-align: center;
+}
