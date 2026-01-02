@@ -3,7 +3,7 @@ function Test() {
 var id_select_apt = document.getElementById("id_select_apt");
 
 // Get the button that opens the modal
-var id_select_apt_button = document.getElementById("id_select_apt_button");
+var id_select_apt_button = document.getElementById("id_select_apt_button_1");
 
 // Get the <span> element that closes the modal
 var select_apt_close = document.getElementsByClassName("select_apt_close")[0];
