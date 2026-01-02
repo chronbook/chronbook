@@ -20,7 +20,7 @@ select_apt_close.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
+  if (event.target == id_select_apt) {
     id_select_apt.style.display = "none";
   }
 }
