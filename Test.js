@@ -1,27 +1,39 @@
-function Test() {
-  // Get the modal
-var id_select_apt = document.getElementById("id_select_apt");
-
-// Get the button that opens the modal
-var id_select_apt_button = document.getElementById("id_select_apt_button_1");
-
-// Get the <span> element that closes the modal
-var select_apt_close = document.getElementsByClassName("select_apt_close")[0];
-
-// When the user clicks the button, open the modal 
-id_select_apt_button.onclick = function() {
-  id_select_apt.style.display = "block";
+function show_select_apt(id) {
+   const modal = document.getElementById('select_apt_' + id);
+   modal.style.display = "block"
 }
 
-// When the user clicks on <span> (x), close the modal
-select_apt_close.onclick = function() {
-  id_select_apt.style.display = "none";
+function hide_select_apt(id) {
+   const modal = document.getElementById('select_apt_' + id);
+   modal.style.display = "none"
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == id_select_apt) {
-    id_select_apt.style.display = "none";
-  }
-}
-}
+document.addEventListener('DOMContentLoaded', () => {
+
+   document.querySelectorAll('.select_apt_button').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+         const target = btn.dataset.target;
+         show_select_apt(target);
+      });
+   });
+
+
+   document.querySelectorAll('.select_apt').forEach(modal => {
+
+      const closeBtn = modal.querySelector('.select_apt_close');
+      if (closeBtn) {
+         closeBtn.addEventListener('click', () => {
+            const id = modal.dataset.id;
+            hide_select_apt(id);
+         });
+      }
+
+      modal.addEventListener('click', (e) => {
+         if (e.target === modal) {
+            const id = modal.dataset.id;
+            hide_select_apt(id);
+         }
+      });
+   });
+
+});
