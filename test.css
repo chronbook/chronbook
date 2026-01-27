@@ -1,221 +1,225 @@
-
-   .modal {
-   display: none; 
-   position: fixed;
-   z-index: 1;
-   padding-top: 100px;
-   left: 0;
-   top: 0;
-   width: 100%; 
-   height: 100%;
-   overflow: auto; 
-   background-color: rgb(0,0,0); 
-   background-color: rgba(0,0,0,0.4);
-   }
-   .modal-content {
-   background-color: #fefefe;
-   margin: auto;
-   padding: 20px;
-   border: 1px solid #888;
-   width: 80%;
-   }
-   .close {
-   color: #aaaaaa;
-   float: right;
-   font-size: 28px;
-   font-weight: bold;
-   }
-   .close:hover,
-   .close:focus {
-   color: #000;
-   text-decoration: none;
-   cursor: pointer;
-   }
-   .layout_ace {
-   display: flex;
-   flex-direction: column;
-   background-color: white;
-   width: stretch;
-   height: stretch;
-   align-items: center;
-   }
-   .layout_pa {
-   display: flex;
-   background-color: white;
-   width: stretch;
-   height: stretch;
-   align-items: center;
-   }
-   .layout_pa_p {
-   display: flex;
-   flex-direction: column;
-   background-color: white;
-   width: stretch;
-   height: stretch;
-   align-items: center;
-   }
-   .p_sideAce {
-   display: flex;
-   background-color: violet;
-   width: 100px;
-   height: 150px;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: 1px;
-   margin-left: 1px;
-   padding: 0px;
-   font-size: 10px;
-   justify-content: center;
-   align-items: center;
-   }
-   .p_sideA {
-   display: flex;
-   background-color: blue;
-   width: 100px;
-   height: 150px;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: 1px;
-   margin-left: 1px;
-   padding: 0px;
-   font-size: 10px;
-   justify-content: center;
-   align-items: center;
-   }
-   .p_sideB {
-   display: flex;
-   background-color: lightpink;
-   width: 100px;
-   height: 150px;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: 1px;
-   margin-left: 1px;
-   padding: 0px;
-   font-size: 10px;
-   justify-content: center;
-   align-items: center;
-   }
-   .p_apt_ver {
-   display: flex;
-   flex-direction: column;
-   width: stretch;
-   height: stretch;
-   align-items: center;
-   }
-   .p_apt_hor {
-   display: flex;
-   width: stretch;
-   height: stretch;
-   align-items: center;
-   }
-   .p_apt_name {
-   display: flex;
-   background-color: lightgreen;
-   width: 20px;
-   height: 20px;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: 1px;
-   margin-left: 1px;
-   padding: 0px;
-   font-size: 10px;
-   justify-content: center;
-   align-items: center;
-   }
-   .p_apt_text {
-   display: flex;
-   background-color: white;
-   width: 20px;
-   height: 20px;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: 1px;
-   margin-left: 1px;
-   padding: 0px;
-   font-size: 10px;
-   justify-content: center;
-   align-items: center;
-   }
-   .p_apt_select {
-   display: flex;
-   background-color: pink;
-   width: 50px;
-   height: 50px;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: 1px;
-   margin-left: 1px;
-   padding: 0px;
-   font-size: 10px;
-   justify-content: center;
-   align-items: center;
-   }
-   .p_apt_icon {
-   display: flex;
-   background-color: teal;
-   width: 50px;
-   height: 100px;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: 1px;
-   margin-left: 1px;
-   padding: 0px;
-   font-size: 10px;
-   justify-content: center;
-   align-items: center;
-   }
-
-
-
-
-
-
+.modal {
+display: none; 
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%;
+overflow: auto; 
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+}
+.close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+.layout_ace {
+display: block;
+flex-direction: column;
+background-color: white;
+width: stretch;
+height: stretch;
+align-items: center;
+white-space: nowrap;
+overflow-x: auto;
+}
+.layout_pa {
+display: flex;
+background-color: white;
+width: stretch;
+height: stretch;
+align-items: center;
+}
+.layout_pa_p {
+display: flex;
+flex-direction: column;
+background-color: white;
+width: stretch;
+height: stretch;
+align-items: center;
+}
+.p_sideAce {
+display: flex;
+background-color: violet;
+width: 100px;
+height: 150px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_sideA {
+display: flex;
+background-color: blue;
+width: 80px;
+height: 100px;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_sideA_compact {
+display: flex;
+background-color: blue;
+width: 39px;
+height: 100px;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_sideB {
+display: flex;
+background-color: lightpink;
+width: 80px;
+height: 100px;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_sideB_compact {
+display: flex;
+background-color: lightpink;
+width: 39px;
+height: 100px;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_apt_ver {
+display: flex;
+flex-direction: column;
+width: stretch;
+height: stretch;
+align-items: center;
+}
+.p_apt_hor {
+display: flex;
+width: stretch;
+height: stretch;
+align-items: center;
+}
+.p_apt_name {
+display: flex;
+background-color: lightgreen;
+width: 13px;
+height: 13px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_apt_text {
+display: flex;
+background-color: white;
+width: 13px;
+height: 13px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_apt_icon {
+display: flex;
+background-color: teal;
+width: 20px;
+height: 40px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.select_apt_button {
+display: flex;
+background-color: pink;
+width: 40px;
+height: 15px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
 .select_apt {
-  display: none; /* Hidden by default */
-  position: relative; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 10px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 30%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+display: none; 
+position: absolute; 
+z-index: 1; 
+padding-top: 20px; 
+left: 10;
+top: 100;
+width: 150px; 
+height: 100%; 
 }
-
-/* Modal Content */
 .select_apt_content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 10px;
-  border: 1px solid #888;
-  width: 80%;
+background-color: #fefefe;
+margin: auto;
+padding: 10px;
+border: 1px solid #888;
+width: 80%;
 }
-
-/* The Close Button */
 .select_apt_close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
 }
-
 .select_apt_close:hover,
 .select_apt_close:focus {
-  color: red;
-  text-decoration: none;
-  cursor: pointer;
+color: red;
+text-decoration: none;
+cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
