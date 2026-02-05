@@ -1,0 +1,46 @@
+.p_select_apt_button {
+display: flex;
+background-color: rgb(242, 88, 113);
+width: 40px;
+height: 40px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 0px;
+font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+.p_select_apt {
+display: none; 
+position: absolute; 
+flex-wrap: wrap;
+z-index: 1; 
+padding-top: 20px; 
+left: 10;
+top: 100;
+width: 450px; 
+height: 150px; 
+}
+.p_select_apt_content {
+background-color: #fefefe;
+margin: auto;
+padding: 10px;
+border: 1px solid #888;
+width: 80%;
+}
+.p_select_apt_close {
+color: #aaaaaa;
+float: right;
+font-size: 15px;
+font-weight: bold;
+width: 20px; 
+height: 20px; 
+}
+.p_select_apt_close:hover,
+.p_select_apt_close:focus {
+color: red;
+text-decoration: none;
+cursor: pointer;
+}

@@ -5,53 +5,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       <title>Chronbook</title>
-      <meta property="og:title" content="Chronium">
+      <meta property="og:title" content="Chronbook">
       <link rel="stylesheet" href="test.css">
+      <link rel="stylesheet" href="p_select_apt.css">
+      <link rel="stylesheet" href="p_select_uma.css">
    </head>
    <body class="body">
+      <div class = "img_test"></div>
       <div style="width: 200px; height: 200px;">
-         <img src='https://github.com/chronbook/chronbook/blob/main/GIF_20250613_151230_483.gif?raw=true' width="50%" height="50%" />
+         <img src='' width="50%" height="50%" />
       </div>
+      <div id = "debug1">val</div>
       <div class="layout_ace" name="ace">
          <div class ="p_sideAce" id ="p00">
-            <div class ="p_apt_ver">
-               <div class ="p_apt_icon" id = "apt_icon">Icon</div>
-               <div class ="p_apt_hor">
-                  <div class ="p_apt_ver">
-                     <div class ="p_apt_name" id = "apt_短">短</div>
-                     <div class ="p_apt_text" id = "apt_短_text">A</div>
-                     <div class ="p_apt_name" id = "apt_逃">逃</div>
-                     <div class ="p_apt_text" id = "apt_逃_text">A</div>
-                  </div>
-                  <div class ="p_apt_ver">
-                     <div class ="p_apt_name" id = "apt_マ">マ</div>
-                     <div class ="p_apt_text" id = "apt_マ_text">A</div>
-                     <div class ="p_apt_name" id = "apt_先">先</div>
-                     <div class ="p_apt_text" id = "apt_先_text">A</div>
-                  </div>
-               </div>
-            </div>
-            <div class ="p_apt_ver">
-               <button class ="p_apt_select" >Select</button>
-               <div class ="p_apt_hor">
-                  <div class ="p_apt_ver">
-                     <div class ="p_apt_name" id = "apt_芝">芝</div>
-                     <div class ="p_apt_text" id = "apt_芝_text">A</div>
-                     <div class ="p_apt_name" id = "apt_中">中</div>
-                     <div class ="p_apt_text" id = "apt_中_text">A</div>
-                     <div class ="p_apt_name" id = "apt_差">差</div>
-                     <div class ="p_apt_text" id = "apt_差_text">A</div>
-                  </div>
-                  <div class ="p_apt_ver">
-                     <div class ="p_apt_name" id = "apt_ダ">ダ</div>
-                     <div class ="p_apt_text" id = "apt_ダ_text">A</div>
-                     <div class ="p_apt_name" id = "apt_長">長</div>
-                     <div class ="p_apt_text" id = "apt_長_text">A</div>
-                     <div class ="p_apt_name" id = "apt_追">追</div>
-                     <div class ="p_apt_text" id = "apt_追_text">A</div>
-                  </div>
-               </div>
-            </div>
          </div>
          <div class="layout_pa" name="p1">
             <div class="layout_pa_p" name="p11">
@@ -239,7 +205,10 @@
             </div>
          </div>
       </div>
+
+
       <script src="init.js"></script>
       <script src="Test.js"></script>
+      <script src="aptcalc.js"></script>
    </body>
 </html>

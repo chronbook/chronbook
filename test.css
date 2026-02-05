@@ -31,7 +31,7 @@ text-decoration: none;
 cursor: pointer;
 }
 .layout_ace {
-display: block;
+display: flex;
 flex-direction: column;
 background-color: white;
 width: stretch;
@@ -72,8 +72,8 @@ align-items: center;
 .p_sideA {
 display: flex;
 background-color: blue;
-width: 80px;
-height: 100px;
+width: 100px;
+height: 150px;
 margin-top: 2px;
 margin-bottom: 0px;
 margin-right: 1px;
@@ -100,8 +100,8 @@ align-items: center;
 .p_sideB {
 display: flex;
 background-color: lightpink;
-width: 80px;
-height: 100px;
+width: 100px;
+height: 150px;
 margin-top: 2px;
 margin-bottom: 0px;
 margin-right: 1px;
@@ -166,60 +166,4 @@ font-size: 10px;
 justify-content: center;
 align-items: center;
 }
-.p_apt_icon {
-display: flex;
-background-color: teal;
-width: 20px;
-height: 40px;
-margin-top: 0px;
-margin-bottom: 0px;
-margin-right: 1px;
-margin-left: 1px;
-padding: 0px;
-font-size: 10px;
-justify-content: center;
-align-items: center;
-}
-.select_apt_button {
-display: flex;
-background-color: pink;
-width: 40px;
-height: 15px;
-margin-top: 0px;
-margin-bottom: 0px;
-margin-right: 1px;
-margin-left: 1px;
-padding: 0px;
-font-size: 10px;
-justify-content: center;
-align-items: center;
-}
-.select_apt {
-display: none; 
-position: absolute; 
-z-index: 1; 
-padding-top: 20px; 
-left: 10;
-top: 100;
-width: 150px; 
-height: 100%; 
-}
-.select_apt_content {
-background-color: #fefefe;
-margin: auto;
-padding: 10px;
-border: 1px solid #888;
-width: 80%;
-}
-.select_apt_close {
-color: #aaaaaa;
-float: right;
-font-size: 28px;
-font-weight: bold;
-}
-.select_apt_close:hover,
-.select_apt_close:focus {
-color: red;
-text-decoration: none;
-cursor: pointer;
-}
+
