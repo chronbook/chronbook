@@ -104,7 +104,9 @@ async function load_data() {
       for (let i = 0; i<= card_count; i++) {
          let p_new_3 = document.createElement('div');
          p_new_3.className = 'p_select_uma_item'
-         p_new_3.innerHTML = '<img src ="./Texture2D/'+j_data.card_id[Object.keys(j_data.card_id)[i]][0].card_icon+'" width="100%" height="100%" data-target="'+Object.keys(j_data.card_id)[i]+'"}"></img>'
+         p_new_3.innerHTML = '<img src ="./Texture2D/'+j_data.card_id[Object.keys(j_data.card_id)[i]][0].card_icon+'" width="80%" height="80%" data-target="'+Object.keys(j_data.card_id)[i]+'"}"></img>'
+         +'<div>'+j_data.card_id[Object.keys(j_data.card_id)[i]][0].card_name+'</div>'
+         
          main_index.appendChild(p_new_3);
       }
    })
